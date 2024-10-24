@@ -30,15 +30,18 @@ fun SignupContainer(
             ) {
                 CustomTextField(
                     text = email,
-                    onChange = emailChange
+                    onChange = emailChange,
+                    placeholder = "Email"
                 )
                 CustomTextField(
                     text = password,
-                    onChange = passwordChange
+                    onChange = passwordChange,
+                    placeholder = "Password"
                 )
                 CustomTextField(
                     text = confirmPassword,
-                    onChange = confirmPasswordChange
+                    onChange = confirmPasswordChange,
+                    placeholder = "Confirm Password"
                 )
             }
         }

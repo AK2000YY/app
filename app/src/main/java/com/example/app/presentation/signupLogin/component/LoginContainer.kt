@@ -28,11 +28,13 @@ fun LoginContainer(
             ) {
                 CustomTextField(
                     text = email,
-                    onChange = emailChange
+                    onChange = emailChange,
+                    placeholder = "Email"
                 )
                 CustomTextField(
                     text = password,
-                    onChange = passwordChange
+                    onChange = passwordChange,
+                    placeholder = "Password"
                 )
             }
         }
