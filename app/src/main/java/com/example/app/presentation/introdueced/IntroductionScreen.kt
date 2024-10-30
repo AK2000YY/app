@@ -8,7 +8,6 @@ import com.example.app.core.Constant.USER_NOT_FOUND
 import com.example.app.domain.model.Response
 import com.example.app.presentation.introdueced.component.IntroductionContainer
 
-
 @Composable
 fun IntroductionScreen(
     modifier: Modifier = Modifier,
